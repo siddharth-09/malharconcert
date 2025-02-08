@@ -45,7 +45,9 @@ function App() {
           <img src={frame3} className="Aud3" alt="#" />
         </div>
         <div className="TextFont">
+            <div className="clickMe"></div>
           <img src={Adrianan} className="Text" alt="#" />
+
         </div>
       </div>
 

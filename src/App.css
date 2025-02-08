@@ -147,9 +147,18 @@ body {
   text-align: center;
 }
 .Text {
-  cursor: pointer;
   height: 100%;
   width: 100%;
+}
+.clickMe {
+  cursor: pointer;
+  z-index: 5;
+  /* background-color: aliceblue; */
+  position: relative;
+  height: 16%;
+  width: 70%;
+  top: 57%;
+  left: 14%;
 }
 
 @media (max-width: 768px) {
