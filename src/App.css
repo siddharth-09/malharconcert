@@ -1,0 +1,251 @@
+/* src/styles/global.css */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/ZilapMonograma-L2J4.ttf') format('truetype');
+
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Parallax sections */
+.section1, .section2 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; /* Prevent scroll overflow */
+}
+.HeroText{
+  position: absolute;
+  top:5%;
+  left:-5%;
+  width:110%;
+  height: 60%;
+  z-index: 1;
+}
+.background {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../src/assets/finalnackground.svg") center/cover no-repeat;
+  z-index: 0; /* Stays in the background */
+  transform: translateY(0);
+  text-shadow: 0 , 0 , 0 ,rgba(0, 0, 0, 0.8);
+  will-change: transform;
+}
+.artist{
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.artistImg{
+  transform: translateX(20%) translateY(5%) ;
+  width: 70%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+}
+.section2 {
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text styling */
+.Text {
+  
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15rem;
+  color: white;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1; /* Stays above the background */
+}
+.artist{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Aud1{
+  position: absolute;
+  z-index: 3;
+  transform: translateY(0%);
+  width: 120%;
+  height: auto;
+}
+.audiance{
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.audiance2{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Aud2{
+
+  opacity: 60%;
+  transform: translatey(40%);
+  width: 150%;
+  height: auto;
+}
+.audiance3{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Aud3{
+  opacity: 80%;
+  transform: translatey(0%);
+  width: 150%;
+  height: auto;
+}
+
+
+.TextFont {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 5%;
+  bottom: -15%;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 2;
+ 
+  text-align: center;
+
+}
+.Text{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+
+@media(max-width: 768px) {
+ /* Text styling */
+.Text {
+  
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15rem;
+  color: white;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1; /* Stays above the background */
+}
+.artist{
+  position: absolute;
+  top: 25%;
+  left: -95%;
+  width: 300%;
+  height: 100%;
+}
+.Aud1{
+  position: absolute;
+  z-index: 3;
+  transform: translateY(0%);
+  width: 120%;
+  height: auto;
+}
+.audiance{
+  position: absolute;
+  top: 45%;
+  left: -50%;
+  width: 300%;
+  height: 100%;
+}
+.audiance2{
+  position: absolute;
+  top: 55%;
+  left: -70%;
+  width: 330%;
+  height: 100%;
+}
+.Aud2{
+
+  opacity: 60%;
+  transform: translatey(40%);
+  width: 150%;
+  height: auto;
+}
+.audiance3{
+  position: absolute;
+  top: 35%;
+  left: -50%;
+  width: 300%;
+  height: 100%;
+}
+.Aud3{
+  opacity: 80%;
+  transform: translatey(0%);
+  width: 150%;
+  height: auto;
+}
+
+
+.TextFont {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 10%;
+  bottom: -5%;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 2;
+ 
+  text-align: center;
+
+}
+.Text{
+left:40%;
+  height: 50%;
+  width: 150%;
+
+}
+.HeroText{
+  position: absolute;
+  top:-10%;
+  left:26%;
+  width: 45%;
+  height: 40%;
+  z-index: 1;
+}
+}
