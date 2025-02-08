@@ -49,8 +49,8 @@ function App() {
       </div>
 
       <div className="section2">
-        <div className="text">NORMAL</div>
-      </div>
+       
+      </div>e
     </>
   );
 }
