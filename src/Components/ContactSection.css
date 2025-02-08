@@ -1,75 +1,76 @@
 /* Contact Section Styles */
 .contact-section {
-    background-color: rgba(128, 0, 128, 0.2); /* Purple background with opacity */
-    padding: 5rem 1rem; /* Vertical padding: 5rem, Horizontal: 1rem */
-  }
-  
-  .container {
-    max-width: 64rem; /* Equivalent to max-w-4xl */
-    margin: 0 auto;
-  }
-  
-  .title {
-    font-size: 2rem; /* Default font size */
-    font-weight: bold;
-    margin-bottom: 3rem;
-    text-align: center;
-  }
-  
-  .contact-grid {
-    display: grid;
-    gap: 2rem; /* Gap between items */
-    grid-template-columns: 1fr 1fr; /* Two columns */
-  }
-  
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .icon {
-    color: #9b59b6; /* Purple color */
-  }
-  
-  .contact-link {
-    color: #9b59b6; /* Purple color */
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .contact-link:hover {
-    color: #8e44ad; /* Darker purple on hover */
-  }
-  
-  .social-links {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .social-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 1.5rem;
-  }
-  
-  .social-link {
-    color: inherit;
-    transition: color 0.3s ease;
-  }
-  
-  .social-link:hover {
-    color: #8e44ad; /* Darker purple on hover */
-  }
-  
+  background-color: rgba(128, 0, 128, 0.2); /* Purple background with opacity */
+  padding: 5rem 1rem; /* Vertical padding: 5rem, Horizontal: 1rem */
+}
+
+.container {
+  max-width: 64rem; /* Equivalent to max-w-4xl */
+  margin: 0 auto;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 2rem; /* Default font size */
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 2rem; /* Gap between items */
+  grid-template-columns: 1fr 1fr; /* Two columns */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  color:whitesmoke;; /* Purple color */
+}
+
+.contact-link {
+  color:whitesmoke; /* Purple color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #8e44ad; /* Darker purple on hover */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.social-title {
+  color: whitesmoke;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-link {
+  color:whitesmoke;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #8e44ad; /* Darker purple on hover */
+}
