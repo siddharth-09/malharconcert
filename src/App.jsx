@@ -8,6 +8,7 @@ import TextBackground from "../src/assets/TextBackground2.png";
 import Navbar from "./Components/Navbar";
 import ContactSection from "./Components/ContactSection";
 
+
 function App() {
   window.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
@@ -25,7 +26,10 @@ function App() {
     Aud2.style.transform = `translateY(-${scrollPosition * 0.4}px)`;
     artistImg.style.transform = `translateY(${scrollPosition * 0.7}px)`;
   });
-
+  
+  const handleRedirect=()=>{
+    window.location.href='https://konfhub.com/malhar-entry-pass'
+  }
   return (
     <>
       <Navbar />
@@ -45,7 +49,7 @@ function App() {
           <img src={frame3} className="Aud3" alt="#" />
         </div>
         <div className="TextFont">
-            <div className="clickMe"></div>
+            <div className="clickMe" onClick={handleRedirect}></div>
           <img src={Adrianan} className="Text" alt="#" />
 
         </div>
