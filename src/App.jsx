@@ -6,6 +6,7 @@ import frame3 from "../src/assets/Frame 3.png";
 import Adrianan from "../src/assets/Adriana-Photoroom.png";
 import TextBackground from "../src/assets/TextBackground2.png";
 import Navbar from "./Components/Navbar";
+import ContactSection from "./Components/ContactSection";
 
 function App() {
   window.addEventListener("scroll", () => {
@@ -49,8 +50,8 @@ function App() {
       </div>
 
       <div className="section2">
-       
-      </div>e
+       <ContactSection/>
+      </div>
     </>
   );
 }
