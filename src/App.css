@@ -92,6 +92,7 @@ body {
 
 .Aud1 {
   position: absolute;
+  pointer-events: none;
   z-index: 3;
   transform: translateY(0%);
   width: 120%;
@@ -146,6 +147,7 @@ body {
   text-align: center;
 }
 .Text {
+  cursor: pointer;
   height: 100%;
   width: 100%;
 }
@@ -232,6 +234,7 @@ body {
     text-align: center;
   }
   .Text {
+    cursor: pointer;
     left: 40%;
     height: 50%;
     width: 150%;
