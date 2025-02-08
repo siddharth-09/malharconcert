@@ -4,10 +4,9 @@ import frame1 from "../src/assets/Frame 1.png";
 import frame2 from "../src/assets/Frame 2.png";
 import frame3 from "../src/assets/Frame 3.png";
 import Adrianan from "../src/assets/Adriana-Photoroom.png";
-import TextBackground from "../src/assets/TextBackground2.png";
+import TextBackground from "../src/assets/HeroText.png";
 import Navbar from "./Components/Navbar";
 import ContactSection from "./Components/ContactSection";
-
 
 function App() {
   window.addEventListener("scroll", () => {
@@ -26,10 +25,10 @@ function App() {
     Aud2.style.transform = `translateY(-${scrollPosition * 0.4}px)`;
     artistImg.style.transform = `translateY(${scrollPosition * 0.7}px)`;
   });
-  
-  const handleRedirect=()=>{
-    window.location.href='https://konfhub.com/malhar-entry-pass'
-  }
+
+  const handleRedirect = () => {
+    window.location.href = "https://konfhub.com/malhar-entry-pass";
+  };
   return (
     <>
       <Navbar />
@@ -49,14 +48,13 @@ function App() {
           <img src={frame3} className="Aud3" alt="#" />
         </div>
         <div className="TextFont">
-            <div className="clickMe" onClick={handleRedirect}></div>
+          <div className="clickMe" onClick={handleRedirect}></div>
           <img src={Adrianan} className="Text" alt="#" />
-
         </div>
       </div>
 
       <div className="section2">
-       <ContactSection/>
+        <ContactSection />
       </div>
     </>
   );

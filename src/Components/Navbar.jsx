@@ -6,13 +6,21 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">🎶 ConcertX</div>
+      <div className="logo">🎶 Musical Fiesta</div>
 
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#lineup">Lineup</a></li>
-        <li><a href="#tickets">Tickets</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#lineup">Lineup</a>
+        </li>
+        <li>
+          <a href="#tickets">Tickets</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
 
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
